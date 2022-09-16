@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 * { margin: 0; padding: 0; text-decoration: none; list-style: none; color: #000; }
 #wrap { width: 1400px; margin: 0 auto; }
 
@@ -13,14 +20,15 @@ header .nav a  { color: #fff; display: flex; }
 header .mainlogo img { position: absolute; width: 300px; margin-top: 220px; margin-left: -700px;}
 
 #s1 {
-    width: 100%; height: 600px; background: rgb(238, 196, 79);
+    width: 100%; height: 600px; background: linear-gradient(rgb(252, 168, 14), rgb(248, 213, 55));
     display: flex; flex-direction: column; justify-content: center; align-items: center;
 }
-#s1 .title h1 { color: #fff; font-size: 50px; padding-bottom: 80px;}
+#s1 .title h1 { color: #fff; font-size: 50px; padding-bottom: 80px; font-family: 'PyeongChangPeace-Bold'; letter-spacing: 5px;}
 #s1 button { width: 300px; height: 90px; padding: 10px 20px; border-radius: 20px; font-size: 30px; border: none; }
 #s1 .button {display: flex; grid-column-gap: 40px;}
 #s1 .install { background: rgb(233, 112, 132); box-shadow: rgba(0,0,0,0.3) 0px 7px 1px 0.1px; }
 #s1 .update { background: rgb(56, 191, 245); box-shadow: rgba(0,0,0,0.3) 0px 7px 1px 0.1px; }
-#s1 .icon1 { position: absolute; margin-left: -800px; margin-top: 50px; }
-#s1 .icon2 { position: absolute;}
-#s1 .icon2 img { width: 300px; margin-left: 700px; margin-top: 120px;}
+#s1 .icon1 { position: absolute; margin-left: -800px; margin-top: 90px; }
+#s1 .icon1 img { width: 270px;}
+#s1 .icon2 { position: absolute; margin-left: 730px; margin-top: 120px;}
+#s1 .icon2 img { width: 300px; }
