@@ -13,11 +13,11 @@ header .nav a  { color: #fff; display: flex; }
 header .mainlogo img { position: absolute; width: 300px; margin-top: 220px; margin-left: -700px;}
 
 #s1 {
-    width: 100%; height: 600px; background: rgb(223, 183, 76);
+    width: 100%; height: 600px; background: rgb(238, 196, 79);
     display: flex; flex-direction: column; justify-content: center; align-items: center;
 }
 #s1 .title h1 { color: #fff; font-size: 50px; padding-bottom: 80px; padding-left: 130px;}
 #s1 button { width: 300px; height: 90px; padding: 10px 20px; border-radius: 20px; font-size: 30px; border: none; }
 #s1 .button {display: flex; grid-column-gap: 40px;}
-#s1 .install { background: pink; box-shadow: rgba(0,0,0,0.3) 0px 7px 1px 0.1px; }
-#s1 .update { background: skyblue; box-shadow: rgba(0,0,0,0.3) 0px 7px 1px 0.1px; }
+#s1 .install { background: rgb(233, 112, 132); box-shadow: rgba(0,0,0,0.3) 0px 7px 1px 0.1px; }
+#s1 .update { background: rgb(56, 191, 245); box-shadow: rgba(0,0,0,0.3) 0px 7px 1px 0.1px; }
